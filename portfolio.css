@@ -1,0 +1,137 @@
+ body {
+            background: radial-gradient(white, skyblue);
+            scroll-behavior: smooth;
+            margin: 0;
+            padding: 0;
+        }
+        h2 {
+            color: chocolate;
+        }
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: white;
+            display: flex;
+            justify-content: center;
+            padding: 20px 0;
+            box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+        a {
+            font-size: 18px;
+            color: brown;
+            text-decoration: none;
+            border: 2px solid purple;
+            border-radius: 8px;
+            margin: 0 20px;
+            padding: 5px 10px;
+        }
+        .nav a:hover {
+            background-color: antiquewhite;
+            border: 3px solid antiquewhite;
+        }
+        .h {
+            margin-top: 150px;
+            display: flex;
+            flex-direction: row;
+        }
+        .alig {
+            margin-left: 100px;
+            margin-top: 35px;
+        }
+        .im {
+            border: 3px solid blue;
+            margin-left: 150px;
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+            box-shadow: 0px 0px 10px blue;
+        }
+        .alig > p {
+            margin: 0;
+            margin-right: 250px;
+            color: blueviolet;
+            font-size: larger;
+            text-transform: capitalize;
+        }
+        .card {
+            display: flex;
+            flex-direction: column;
+            height: 500px;
+            width: 400px;
+            border: 2px solid blue;
+            border-radius: 8px;
+            margin: 20px;
+        }
+        #l2 {
+            font-size: larger;
+            color: rebeccapurple;
+        }
+        .card > img {
+            height: 150px;
+            width: 240px;
+            padding-left: 40px;
+        }
+        .s1 {
+            font-size: 20px;
+            color: rebeccapurple;
+        }
+        .card:hover {
+            opacity: 0.9;
+            background-color: beige;
+            border: 18px solid beige;
+            border-radius: 7px;
+        }
+        .h2 {
+            display: flex;
+            flex-direction: column;
+            text-wrap: wrap;
+        }
+        .im1 {
+            margin-top: 75px;
+            margin-right: 25px;
+            border: 4px solid pink;
+            height: 350px;
+            width: 350px;
+            border-radius: 50%;
+            box-shadow: 0px 0px 7px pink;
+        }
+        #l5 > li {
+            font-size: larger;
+            color: rebeccapurple;
+        }
+        input, textarea {
+            background: radial-gradient(white, skyblue);
+            color: blueviolet;
+            height: 45px;
+            width: 150px;
+        }
+
+        section {
+            display: none;
+            padding: 20px;
+        }
+
+        section.active {
+            display: block;
+        }
+       
+        .filter-btn {
+            padding: 8px 12px;
+            border: 2px solid purple;
+            border-radius: 8px;
+            margin: 5px;
+            cursor: pointer;
+            background: white;
+            color: brown;
+        }
+        .filter-btn:hover {
+            background: antiquewhite;
+        }
+        .projects-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    

@@ -1,0 +1,120 @@
+<html>
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+       
+</head>
+<body>
+    <div class="nav">
+        <a href="#l1" data-target="l1">HOME</a>
+        <a href="#l2" data-target="l2">ABOUT</a>
+        <a href="#l3" data-target="l3">PROJECTS</a>
+        <a href="#l4" data-target="l4">SKILLS</a>
+        <a href="#l5" data-target="l5">CONTACT</a>
+    </div>
+
+    <section id="l1" class="active">
+        <div class="h">
+            <img src="C:/Users/LENOVO/Desktop/p.jpeg" class="im">
+            <div class="alig">
+                <p>HELLO, THIS IS SWETHA GUPTA</p><br>
+                <p>I'm a Java Developer</p><br>
+                <p>My first exposure to professional life through internship has benefitted me mostly in strengthening my professional skills. I have developed a positive attitude and strong sense of responsibility being innovative, resourceful, open, and responsive to change.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="l2">
+        <div class="h">
+            <h2><b>About ME</b></h2>
+            <img src="C:/Users/LENOVO/Desktop/p.jpeg" class="im1">
+            <div class="h2">
+                <p>Hi, I’m Swetha Gupta, a passionate and detail-oriented web developer who loves creating clean, user-friendly, and visually appealing websites. I enjoy turning ideas into interactive experiences using modern web technologies.</p>
+                <h3>EDUCATION</h3>
+                <ul>
+                    <li>Bachelor’s Degree in Computer Science</li>
+                    <li>Pre University Course: Completed PU from ABC Womens PU College</li>
+                    <li>SSLC: Completed 10 from VEER Educations</li>
+                </ul>
+                <h3>Fields Of Interest</h3>
+                <ul>
+                    <li>Web development</li>
+                    <li>UI UX Design</li>
+                    <li>Machine Learning</li>
+                </ul>
+                <h3>Favourite PassTime</h3>
+                <li>Exploring new design trends and tech blogs</li>
+                <li>Photography</li>
+                <li>Experimenting with interactive layouts for fun</li>
+            </div>
+        </div>
+    </section>
+
+    <section id="l3">
+        <h2><b>Projects</b></h2>
+        <div>
+            <button class="filter-btn" data-category="all">All</button>
+            <button class="filter-btn" data-category="web">Web Development</button>
+            <button class="filter-btn" data-category="java">Java</button>
+            <button class="filter-btn" data-category="ml">Machine Learning</button>
+        </div>
+        <div class="projects-container">
+            <div class="card" data-category="web">
+                <h3>Portfolio Website</h3>
+                <img src="fulls.jpg">
+                <p class="s1">A responsive personal portfolio website built with HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="card" data-category="java">
+                <h3>Library Management System</h3>
+                <img src="java.jpg">
+                <p class="s1">A Java-based desktop application to manage library book records.</p>
+            </div>
+            <div class="card" data-category="ml">
+                <h3>House Price Prediction</h3>
+                <img src="mac.jpeg">
+                <p class="s1">A machine learning project predicting house prices using Python & scikit-learn.</p>
+            </div>
+            <div class="card" data-category="web">
+                <h3>E-commerce Website</h3>
+                <img src="fulls.jpg">
+                <p class="s1">A complete e-commerce platform built with MERN stack.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="l4">
+        <h2><b>Skills</b></h2>
+        <div class="card">
+            <h3>Full stack developer</h3>
+            <img src="fulls.jpg">
+            <p class="s1">Front-end and back-end expertise with React, Node.js, Express, and MongoDB.</p>
+        </div>
+        <div class="card">
+            <h3>JAVA</h3>
+            <img src="java.jpg">
+            <p class="s1">Proficient in Java SE, EE, Spring Boot, and Hibernate.</p>
+        </div>
+        <div class="card">
+            <h3>Machine Learning</h3>
+            <img src="mac.jpeg">
+            <p class="s1">Experience with Python, TensorFlow, and Scikit-learn.</p>
+        </div>
+    </section>
+
+    <section id="l5">
+        <h2><b>Contact ME</b></h2>
+        <p>Email: <b><span style="color:green">shwetha_gupta321@gmail.com</span></b></p>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="number" placeholder="Contact Number"><br>
+            <textarea style="height: 200px; width: 300px;" placeholder="Your Message"></textarea><br>
+            <button type="submit">Send message</button>
+        </form>
+    </section>
+
+    <script src="portfolio.js">
+        
+       
+    </script>
+</body>
+</html>
